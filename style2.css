@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins';
+    width: 100%;
+}
+ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 25px;
+    padding-top: 30px;
+}
+.content{
+   text-align: center;
+   font-size: 20px;
+   margin-top: 25px;
+  color: rgba(0, 0, 0, 0.699);
+
+}
+.line{
+    height: 2px;
+    margin-left: 50%;
+    width: 70px;
+    margin-top: -15px;
+    background-color: black;
+}
+.check-box{
+    border: 3px solid black;
+}
+.buttons{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    margin-left: 0.5%;
+    
+}
+.mySelectors{
+    width: 100%;
+
+}
+
+.para{
+    display: flex;
+    height: 450px;
+    width: 360px;
+    border: 10px solid black;
+    border-radius: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    font-size: 22px;
+}
+.date{
+    text-align: center;
+    margin: 20px;
+    height: 80px;
+}
+.cc-head{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cc-contant{
+    color: rgba(0, 0, 0, 0.664);
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+   margin-left: -140px;
+   margin-top: 20px;
+   color: rgba(0, 0, 0, 0.534);
+}
+.book{
+    height: 50px;
+    width: 170px;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.content{
+    text-align: center;
+    font-size: large;
+   color: rgba(0, 0, 0, 0.459);
+ 
+ }
+.btn4{
+    margin-top: 20px;
+     border:1px solid black; 
+     border-radius:2px;
+     height:40px;
+     display: flex;
+    justify-content: center;
+     
+}
